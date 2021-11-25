@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background: url("https://img5.goodfon.com/wallpaper/nbig/5/11/laptop-desk-coffee-music-cookie.jpg") top no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    color: white;
+}
+.container{
+    margin: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 400px;
+    border-radius: 5px;
+}
+li{
+    list-style-type: none;
+}
+input[type=checkbox]:checked + span{
+    text-decoration: line-through;
+}
+button{
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
